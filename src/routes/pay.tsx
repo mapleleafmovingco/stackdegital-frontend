@@ -20,12 +20,12 @@ export const Route = createFileRoute("/pay")({
   },
   head: () => ({
     meta: [
-      { title: "Make a Payment — Stackforge Labs" },
+      { title: "Make a Payment — Stack Digital Labs" },
       {
         name: "description",
-        content: "Pay your Stackforge project deposit securely through Stripe.",
+        content: "Pay your Stack Digital project deposit securely through Stripe.",
       },
-      { property: "og:title", content: "Make a Payment — Stackforge Labs" },
+      { property: "og:title", content: "Make a Payment — Stack Digital Labs" },
       { property: "og:description", content: "Secure project payments, processed by Stripe." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

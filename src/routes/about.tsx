@@ -5,13 +5,13 @@ import { SiteHeader } from "@/components/SiteHeader";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Stackforge Labs" },
+      { title: "About — Stack Digital Labs" },
       {
         name: "description",
         content:
-          "Stackforge is a tech studio building full-stack web applications, AI automations and digital design.",
+          "Stack Digital is a tech studio building full-stack web applications, AI automations and digital design.",
       },
-      { property: "og:title", content: "About — Stackforge Labs" },
+      { property: "og:title", content: "About — Stack Digital Labs" },
       {
         property: "og:description",
         content: "One accountable team across every layer of your product.",
@@ -56,7 +56,7 @@ function AboutPage() {
           One studio for <span className="text-gradient">every layer of your product</span>
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
-          Stackforge is a tech studio crafting full-stack web apps, AI automations and digital
+          Stack Digital is a tech studio crafting full-stack web apps, AI automations and digital
           design. We take products from first sketch to production scale with one accountable team —
           so nothing gets lost between the designer, the developer and the people running it.
         </p>

@@ -12,9 +12,9 @@ import type { Tables } from "@/integrations/supabase/types";
 export const Route = createFileRoute("/portal")({
   head: () => ({
     meta: [
-      { title: "Client Portal — Stackforge Labs" },
-      { name: "description", content: "Track your Stackforge projects, progress and updates in one place." },
-      { property: "og:title", content: "Client Portal — Stackforge Labs" },
+      { title: "Client Portal — Stack Digital Labs" },
+      { name: "description", content: "Track your Stack Digital projects, progress and updates in one place." },
+      { property: "og:title", content: "Client Portal — Stack Digital Labs" },
       { property: "og:description", content: "Your projects, progress and team updates." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

@@ -5,9 +5,9 @@ import { SiteHeader } from "@/components/SiteHeader";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Enterprise Services — Stackforge Labs" },
+      { title: "Enterprise Services — Stack Digital Labs" },
       { name: "description", content: "Full-stack apps, mobile, AI automation, cloud & DevOps, data, security and integrations for modern enterprises." },
-      { property: "og:title", content: "Enterprise Services — Stackforge Labs" },
+      { property: "og:title", content: "Enterprise Services — Stack Digital Labs" },
       { property: "og:description", content: "Every layer of the modern enterprise stack, designed, built and operated by one team." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

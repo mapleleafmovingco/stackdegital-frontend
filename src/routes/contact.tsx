@@ -6,13 +6,13 @@ import { SiteHeader } from "@/components/SiteHeader";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Stackforge Labs" },
+      { title: "Contact — Stack Digital Labs" },
       {
         name: "description",
         content:
-          "Tell Stackforge what you want to build. We'll map the fastest route from idea to product.",
+          "Tell Stack Digital what you want to build. We'll map the fastest route from idea to product.",
       },
-      { property: "og:title", content: "Contact — Stackforge Labs" },
+      { property: "og:title", content: "Contact — Stack Digital Labs" },
       { property: "og:description", content: "Have something to build? Let's talk." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/contact")({
   component: ContactPage,
 });
 
-const EMAIL = "hello@stackforge.dev";
+const EMAIL = "hello@stackdigital.dev";
 
 function ContactPage() {
   const [form, setForm] = useState({ name: "", subject: "", message: "" });

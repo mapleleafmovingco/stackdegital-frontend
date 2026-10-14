@@ -37,7 +37,7 @@ export function ProjectUpdates({ projectId, userId }: { projectId: string; userI
           <div key={u.id} className="rounded-lg bg-secondary px-3 py-2 text-sm">
             <p>{u.message}</p>
             <p className="mt-1 text-xs text-muted-foreground">
-              {u.author_id === userId ? "You" : "Stackforge"} · {new Date(u.created_at).toLocaleString()}
+              {u.author_id === userId ? "You" : "Stack Digital"} · {new Date(u.created_at).toLocaleString()}
             </p>
           </div>
         ))}

@@ -15,13 +15,13 @@ import { SiteHeader } from "@/components/SiteHeader";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Stackforge — Full-Stack Apps, AI Automation & Design Studio" },
+      { title: "Stack Digital — Full-Stack Apps, AI Automation & Design Studio" },
       {
         name: "description",
         content:
-          "Stackforge is a tech studio building full-stack web applications, AI automations, and standout digital design for ambitious teams.",
+          "Stack Digital is a tech studio building full-stack web applications, AI automations, and standout digital design for ambitious teams.",
       },
-      { property: "og:title", content: "Stackforge — Full-Stack Apps, AI Automation & Design Studio" },
+      { property: "og:title", content: "Stack Digital — Full-Stack Apps, AI Automation & Design Studio" },
       {
         property: "og:description",
         content:
@@ -33,7 +33,7 @@ export const Route = createFileRoute("/")({
       { property: "og:image:height", content: "630" },
       {
         property: "og:image:alt",
-        content: "Stackforge — Full-Stack Apps, AI Automation & Design Studio",
+        content: "Stack Digital — Full-Stack Apps, AI Automation & Design Studio",
       },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:image", content: "/og-image.png" },
@@ -133,7 +133,7 @@ function Index() {
             We build the software that <span className="text-gradient">builds your business</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-            Stackforge is a tech studio crafting full-stack web apps, AI automations, and
+            Stack Digital is a tech studio crafting full-stack web apps, AI automations, and
             unforgettable digital design — from first sketch to production scale.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
@@ -233,10 +233,10 @@ function Index() {
             your users love.
           </p>
           <a
-            href="mailto:hello@stackforge.dev"
+            href="mailto:hello@stackdigital.dev"
             className="glow-ring relative mt-9 inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 font-medium text-primary-foreground transition-transform hover:scale-105"
           >
-            hello@stackforge.dev <ArrowRight className="size-4" />
+            hello@stackdigital.dev <ArrowRight className="size-4" />
           </a>
         </div>
       </section>
@@ -244,7 +244,7 @@ function Index() {
       {/* Footer */}
       <footer className="border-t border-border/60">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-8 text-sm text-muted-foreground md:flex-row">
-          <p>© 2026 Stackforge Labs. All rights reserved.</p>
+          <p>© 2026 Stack Digital Labs. All rights reserved.</p>
           <p>Full-stack apps · AI automation · Design</p>
         </div>
       </footer>

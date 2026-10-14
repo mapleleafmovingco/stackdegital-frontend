@@ -10,10 +10,10 @@ export const Route = createFileRoute("/auth")({
   validateSearch: (s: Record<string, unknown>): { next?: "pay" } => (s["next"] === "pay" ? { next: "pay" } : {}),
   head: () => ({
     meta: [
-      { title: "Sign in — Stackforge Client Portal" },
-      { name: "description", content: "Sign in or create an account to access your Stackforge client portal." },
-      { property: "og:title", content: "Sign in — Stackforge Client Portal" },
-      { property: "og:description", content: "Track projects and submit requests in the Stackforge client portal." },
+      { title: "Sign in — Stack Digital Client Portal" },
+      { name: "description", content: "Sign in or create an account to access your Stack Digital client portal." },
+      { property: "og:title", content: "Sign in — Stack Digital Client Portal" },
+      { property: "og:description", content: "Track projects and submit requests in the Stack Digital client portal." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],

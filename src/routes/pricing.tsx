@@ -5,13 +5,13 @@ import { SiteHeader } from "@/components/SiteHeader";
 export const Route = createFileRoute("/pricing")({
   head: () => ({
     meta: [
-      { title: "Pricing — Stackforge Labs" },
+      { title: "Pricing — Stack Digital Labs" },
       {
         name: "description",
         content:
-          "How Stackforge prices projects: discovery sprints, fixed-scope builds and ongoing retainers.",
+          "How Stack Digital prices projects: discovery sprints, fixed-scope builds and ongoing retainers.",
       },
-      { property: "og:title", content: "Pricing — Stackforge Labs" },
+      { property: "og:title", content: "Pricing — Stack Digital Labs" },
       {
         property: "og:description",
         content: "Clear engagement models, written quotes and secure online payment.",

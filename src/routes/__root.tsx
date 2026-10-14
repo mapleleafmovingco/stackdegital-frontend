@@ -80,13 +80,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Stackforge — Full-Stack Apps, AI Automation & Design Studio" },
+      { title: "Stack Digital — Full-Stack Apps, AI Automation & Design Studio" },
       {
         name: "description",
         content:
-          "Stackforge is a tech studio building full-stack web applications, AI automations, and standout digital design.",
+          "Stack Digital is a tech studio building full-stack web applications, AI automations, and standout digital design.",
       },
-      { property: "og:title", content: "Stackforge — Full-Stack Apps, AI Automation & Design Studio" },
+      { property: "og:title", content: "Stack Digital — Full-Stack Apps, AI Automation & Design Studio" },
       {
         property: "og:description",
         content:
@@ -100,13 +100,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:image:height", content: "630" },
       {
         property: "og:image:alt",
-        content: "Stackforge — Full-Stack Apps, AI Automation & Design Studio",
+        content: "Stack Digital — Full-Stack Apps, AI Automation & Design Studio",
       },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:image", content: "/og-image.png" },
       {
         name: "twitter:image:alt",
-        content: "Stackforge — Full-Stack Apps, AI Automation & Design Studio",
+        content: "Stack Digital — Full-Stack Apps, AI Automation & Design Studio",
       },
     ],
     links: [

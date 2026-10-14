@@ -11,10 +11,10 @@ import type { Tables, Enums } from "@/integrations/supabase/types";
 export const Route = createFileRoute("/admin")({
   head: () => ({
     meta: [
-      { title: "Admin Dashboard — Stackforge Labs" },
+      { title: "Admin Dashboard — Stack Digital Labs" },
       { name: "description", content: "Manage all client projects, statuses and progress." },
-      { property: "og:title", content: "Admin Dashboard — Stackforge Labs" },
-      { property: "og:description", content: "Internal project management for the Stackforge team." },
+      { property: "og:title", content: "Admin Dashboard — Stack Digital Labs" },
+      { property: "og:description", content: "Internal project management for the Stack Digital team." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "robots", content: "noindex" },

@@ -5,12 +5,12 @@ import { SiteHeader } from "@/components/SiteHeader";
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Portfolio — Stackforge Labs" },
+      { title: "Portfolio — Stack Digital Labs" },
       {
         name: "description",
-        content: "Selected Stackforge work across web platforms, AI automation, data and design.",
+        content: "Selected Stack Digital work across web platforms, AI automation, data and design.",
       },
-      { property: "og:title", content: "Portfolio — Stackforge Labs" },
+      { property: "og:title", content: "Portfolio — Stack Digital Labs" },
       { property: "og:description", content: "The kind of products we design, build and operate." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

@@ -43,7 +43,7 @@ export function AiAssistant() {
             </span>
             <div>
               <p className="text-sm font-semibold">Forge</p>
-              <p className="text-xs text-muted-foreground">Stackforge AI assistant</p>
+              <p className="text-xs text-muted-foreground">Stack Digital AI assistant</p>
             </div>
           </div>
           <div className="flex-1 space-y-4 overflow-y-auto p-4 text-sm">
