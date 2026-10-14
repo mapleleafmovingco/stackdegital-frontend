@@ -233,10 +233,10 @@ function Index() {
             your users love.
           </p>
           <a
-            href="mailto:hello@stackdigital.dev"
+            href="mailto:hello@stackdigital.com"
             className="glow-ring relative mt-9 inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 font-medium text-primary-foreground transition-transform hover:scale-105"
           >
-            hello@stackdigital.dev <ArrowRight className="size-4" />
+            hello@stackdigital.com <ArrowRight className="size-4" />
           </a>
         </div>
       </section>
